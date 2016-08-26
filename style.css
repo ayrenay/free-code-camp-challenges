@@ -1,0 +1,22 @@
+body{
+  font-family: Inconsolata;
+}
+
+#page-title{
+  color: purple;
+  font-weight: bold;
+}
+
+#top-level-well {
+  margin: 50px;  
+}
+
+#video-well{
+  background-color: #ece5ff;
+  padding: 15px;
+  margin: 0px;
+}
+
+#video {
+  margin: 20px;
+}
