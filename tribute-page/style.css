@@ -1,5 +1,15 @@
 body{
-  font-family: Inconsolata;
+  font-family: Merriweather;
+  background-color: #330033;
+}
+
+p{
+  font-size: 15px;
+}
+
+blockquote{
+  background-color: #faebfa;
+  font-family: Open Sans;
 }
 
 #page-title{
@@ -8,15 +18,25 @@ body{
 }
 
 #top-level-well {
-  margin: 50px;  
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: -10px;
 }
 
 #video-well{
-  background-color: #ece5ff;
+  background-color: #faebfa;
   padding: 15px;
   margin: 0px;
+  border-color: #ffe6ff;
 }
 
 #video {
   margin: 20px;
+}
+
+#full-description{
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
