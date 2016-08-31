@@ -1,18 +1,20 @@
-body{
+body {
   font-family: Merriweather;
   background-color: #330033;
 }
 
-p{
+p {
   font-size: 15px;
 }
 
-blockquote{
-  background-color: #faebfa;
+blockquote {
+  background-color: #f3d8f3;
+  color: #130613;
   font-family: Open Sans;
+  border-left: 10px solid #882b88;
 }
 
-#page-title{
+#page-title {
   color: purple;
   font-weight: bold;
 }
@@ -21,13 +23,14 @@ blockquote{
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 50px;
-  margin-bottom: -10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
-#video-well{
+#video-well {
   background-color: #faebfa;
   padding: 15px;
-  margin: 0px;
+  margin: 15px;
   border-color: #ffe6ff;
 }
 
@@ -35,8 +38,23 @@ blockquote{
   margin: 20px;
 }
 
-#full-description{
+#full-description {
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+footer {
+  background-color: #3a123a;
+  color: #faebfa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+a {
+  color: #882b88;
+  font-weight: 700;
 }
