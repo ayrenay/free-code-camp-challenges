@@ -3,6 +3,11 @@ body {
   background-color: #330033;
 }
 
+.container-fluid {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 p {
   font-size: 15px;
 }
@@ -20,8 +25,6 @@ blockquote {
 }
 
 #top-level-well {
-  margin-left: 50px;
-  margin-right: 50px;
   margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 20px;
